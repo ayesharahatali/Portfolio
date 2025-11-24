@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ayesha</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #f7f7f74d;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        header {
+            background: #1a1a1a;
+            padding: 15px 40px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            animation: slideDown 0.6s ease;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-80%); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ddd;
+            font-weight: 600;
+            transition: 0.3s;
+            padding-bottom: 4px;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #fff;
+            border-bottom: 2px solid #fff;
+        }
+
+        /* PROJECT SECTION */
+        .projects-section {
+            padding: 60px;
+            background: #fff;
+            animation: fadeUp 0.9s ease;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .projects-section h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .project-card {
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .skills-section ul {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+
+        /* EXPERIENCE SECTION */
+        .experience-section {
+            margin-top: 40px;
+            background: #fafafa;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .experience-section h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .exp-item {
+            margin-bottom: 18px;
+        }
+
+        .exp-item strong {
+            font-size: 18px;
+        }
+
+        /* CONTACT */
+        .contact {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #1a1a1a;
+            color: rgba(255, 255, 255, 0.438);
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Ayesha Portfolio</div>
+            <ul>
+  <li><a href="about.html">About Me</a></li>
+  <li><a class="active" href="projects.html">Projects</a></li>
+</ul>
+        </nav>
+    </header>
+    
+    <section class="projects-section">
+        <h1>My Projects</h1>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Project Image">
+            <h3>Portfolio Website</h3>
+            <p>
+                A modern personal website built using HTML and CSS.
+                Focused on smooth layout, typography, transitions,
+                and a clean UI.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Project Image">
+            <h3>College Assignment Blog</h3>
+            <p>
+                A multi-section static webpage designed with clean structure,
+                proper spacing, and user-friendly navigation.
+            </p>
+        </div>
+
+        <h1>Skills</h1>
+        <div class="skills-section">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive Web Design</li>
+                <li>Basic JavaScript</li>
+                <li>video editing</li>
+            </ul>
+        </div>
+
+        <div class="experience-section">
+            <h2>Experience</h2>
+
+            <div class="exp-item">
+                <strong>Front-End Learner (2024 — Present)</strong>
+                <p>Learning HTML, CSS, and basic JS while building creative mini-projects.</p>
+            </div>
+
+            <div class="exp-item">
+                <strong>Freelance Student Projects</strong>
+                <p>Designed simple websites for class assignments and personal practice.</p>
+            </div>
+        </div>
+
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <p><strong>✉ Email:</strong> ayesharahat130@gmail.com</p>
+            <p><strong>☏ Phone:</strong> 0321-6454536</p>
+        </div>
+    </section>
+
+    <footer>
+   
+
+</body>
+</html>
